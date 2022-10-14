@@ -168,11 +168,11 @@ img {
     font-size: 24px;
   }
   .address h1::before {
-    bottom: -144px;
+    bottom: -28px;
     width: 93px;
   }
   .address h1::after {
-    bottom: -149px;
+    bottom: -32px;
     width: 8px;
     height: 8px;
   }

@@ -23,6 +23,9 @@ header nav {
 header nav ul {
   display: flex;
 }
+header nav .menu {
+  display: none;
+}
 header nav ul li a {
   color: white;
   text-decoration: none;
@@ -178,6 +181,7 @@ header nav .form {
   font-weight: normal;
   font-size: 40px;
   margin-bottom: 4.375rem;
+  position: relative;
 }
 .address h1::before {
   content: "";
@@ -186,7 +190,7 @@ header nav .form {
   transform: translateX(-50%);
   height: 2px;
   background-color: #333;
-  bottom: -179px;
+  bottom: -28px;
   width: 120px;
 }
 .address h1::after {
@@ -198,7 +202,7 @@ header nav .form {
   height: 14px;
   border-radius: 50%;
   border: 2px solid #333;
-  bottom: -187px;
+  bottom: -35px;
   background-color: white;
 }
 
