@@ -141,6 +141,9 @@ img {
   .about img {
     max-width: 90%;
   }
+  .protofolio .testimonial .box {
+    flex-basis: 100%;
+  }
 }
 /**************************/
 /* BELOW 544px (Phones) */
@@ -148,7 +151,7 @@ img {
 
 @media (max-width: 38em) {
   .container {
-    max-width: 17.5rem;
+    max-width: 16rem;
   }
   .text h1 {
     font-size: 24px;
@@ -245,5 +248,8 @@ img {
   }
   .about img {
     max-width: 90%;
+  }
+  .protofolio .testimonial .box {
+    flex-basis: 100%;
   }
 }
