@@ -1,0 +1,249 @@
+html {
+  line-height: 1.15;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  background-color: transparent;
+}
+ul {
+  list-style: none;
+}
+img {
+  border-style: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@media (max-width: 75em) {
+  .container {
+    width: 56rem;
+  }
+  .content-service {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .protofolio .testimonial .box {
+    flex-basis: 50%;
+  }
+  .stats .container .number {
+    flex-basis: 50%;
+  }
+  .test-skills .container .testimonials {
+    flex-basis: 100%;
+  }
+  .test-skills .container .skills {
+    flex-basis: 100%;
+  }
+}
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  .container {
+    width: 42.5rem;
+  }
+  .protofolio .testimonial .box {
+    flex-basis: 50%;
+  }
+  .cont-plan {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pricing .plan {
+    flex-basis: 47%;
+  }
+  .subscriping .container p {
+    margin: 30px 0;
+  }
+  .subscriping .container {
+    flex-direction: column;
+  }
+
+  .form-contact {
+    flex-direction: column;
+  }
+  .contact-content {
+    text-align: center;
+    order: -1;
+    padding-bottom: 2rem;
+  }
+  .about img {
+    max-width: 90%;
+  }
+}
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .container {
+    width: 33.125rem;
+  }
+  header nav ul {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 50%);
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    width: 100%;
+    display: none;
+  }
+  header nav ul li a {
+    display: block;
+    padding: 1.2rem;
+    transition: 0.3s;
+  }
+  header nav .menu {
+    display: block;
+    font-size: 22px;
+    color: white;
+  }
+
+  header nav:hover ul {
+    display: block;
+  }
+  .hero-content {
+    width: 100%;
+  }
+  .one-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .one-content i {
+    margin-bottom: 2rem;
+  }
+  .design .image {
+    display: none;
+  }
+  .stats .container {
+    flex-direction: column;
+  }
+  .stats .container .number {
+    width: 100%;
+  }
+  .about img {
+    max-width: 90%;
+  }
+}
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 38em) {
+  .container {
+    max-width: 17.5rem;
+  }
+  .text h1 {
+    font-size: 24px;
+  }
+  .text p {
+    font-size: 12px;
+  }
+  .services .address h1,
+  .protofolio .main-h-proto h1,
+  .about .about-content h1,
+  .stats .container .number h1,
+  .pricing .pricing-heading h3,
+  .contact .container .contact-heading h1 {
+    font-size: 24px;
+  }
+  .address h1::before {
+    bottom: -144px;
+    width: 93px;
+  }
+  .address h1::after {
+    bottom: -149px;
+    width: 8px;
+    height: 8px;
+  }
+  .protofolio .main-h-proto h1::before {
+    width: 93px;
+  }
+  .protofolio .main-h-proto h1::after {
+    width: 8px;
+    height: 8px;
+    bottom: -32px;
+  }
+  .about .about-content h1::before {
+    width: 93px;
+  }
+  .about .about-content h1::after {
+    width: 8px;
+    height: 8px;
+    bottom: -32px;
+  }
+  .pricing .pricing-heading h3::before {
+    width: 93px;
+  }
+  .pricing .pricing-heading h3::after {
+    width: 8px;
+    height: 8px;
+    bottom: -30px;
+  }
+  .contact .container .contact-heading h1::before {
+    width: 93px;
+  }
+  .contact .container .contact-heading h1::after {
+    width: 8px;
+    height: 8px;
+    bottom: -32px;
+  }
+  .address p {
+    font-size: 14px;
+  }
+  .one-content p,
+  .protofolio .main-h-proto p,
+  .about .about-content p,
+  .stats .container .number p,
+  .pricing .pricing-heading p,
+  .contact .container .contact-heading p,
+  .subscriping .container p,
+  .subscriping .container form input {
+    font-size: 14px;
+  }
+  footer div h3 {
+    font-size: 15px;
+  }
+  footer div p {
+    font-size: 12px;
+  }
+  .test-skills .testimonials .model {
+    flex-direction: column;
+  }
+  .test-skills .testimonials .model img {
+    margin-bottom: 2rem;
+    margin-right: 0;
+  }
+  .test-skills .testimonials .model .test-text {
+    text-align: center;
+  }
+  .pricing .plan {
+    flex-basis: 100%;
+  }
+  .subscriping .container form input[type="email"] {
+    padding: 15px 15px 15px 48px;
+  }
+  .subscriping form {
+    max-width: 111%;
+  }
+  .about img {
+    max-width: 90%;
+  }
+}
