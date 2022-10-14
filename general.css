@@ -252,4 +252,9 @@ img {
   .protofolio .testimonial .box {
     flex-basis: 100%;
   }
+  .address p,
+  .about .about-content p,
+  .protofolio .main-h-proto p {
+    padding: 0 15px;
+  }
 }
