@@ -353,12 +353,6 @@ header nav .form {
   transition: 0.3s;
 }
 
-.protofolio .testimonial .box:hover .box-content {
-  bottom: 1px;
-}
-.protofolio .testimonial .box img:hover {
-  transform: rotate(3deg) scale(1.1);
-}
 /* ************************** */
 .protofolio .testimonial {
   margin-top: 3.75rem;
@@ -383,6 +377,12 @@ header nav .form {
   width: 100%;
   transition: 0.3s;
   bottom: -100%;
+}
+.protofolio .testimonial .box:hover .box-content {
+  bottom: 1px;
+}
+.protofolio .testimonial .box:hover img {
+  transform: rotate(3deg) scale(1.1);
 }
 .protofolio .testimonial .box .box-content h2 {
   font-weight: normal;
