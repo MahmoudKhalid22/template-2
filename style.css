@@ -349,6 +349,16 @@ header nav .form {
   background-color: #19c8fa;
   color: white;
 }
+.protofolio .testimonial .box img {
+  transition: 0.3s;
+}
+
+.protofolio .testimonial .box:hover .box-content {
+  bottom: 1px;
+}
+.protofolio .testimonial .box img:hover {
+  transform: rotate(3deg) scale(1.1);
+}
 /* ************************** */
 .protofolio .testimonial {
   margin-top: 3.75rem;
