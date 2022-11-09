@@ -354,7 +354,7 @@ header nav .form {
 }
 
 .protofolio .testimonial .box:hover .box-content {
-  top: 50px;
+  bottom: 1px;
 }
 .protofolio .testimonial .box img:hover {
   transform: rotate(3deg) scale(1.1);
