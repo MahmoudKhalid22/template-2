@@ -107,7 +107,7 @@ header nav .form {
 }
 .hero {
   min-height: 100vh;
-  background-image: url(images/landing.jpg);
+  background-image: url(../images/landing.jpg);
   background-size: cover;
 }
 .hero .landing {
@@ -241,7 +241,7 @@ header nav .form {
   padding-bottom: 6.25rem;
   height: 37.5rem;
   position: relative;
-  background-image: url(images/design-features.jpg);
+  background-image: url(../images/design-features.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -514,7 +514,7 @@ header nav .form {
   padding-top: 6.25rem;
   padding-bottom: 6.25rem;
   text-align: center;
-  background-image: url(images/stats.png);
+  background-image: url(../images/stats.png);
   background-size: cover;
   position: relative;
 }
@@ -691,7 +691,7 @@ header nav .form {
 .quote {
   padding-top: 6.25rem;
   padding-bottom: 6.25rem;
-  background-image: url("images/quote.jpg");
+  background-image: url("../images/quote.jpg");
   background-size: cover;
   position: relative;
   text-align: center;
@@ -845,7 +845,7 @@ header nav .form {
   padding-top: 6.25rem;
   padding-bottom: 6.25rem;
   position: relative;
-  background-image: url(images/subscribe.jpg);
+  background-image: url(../images/subscribe.jpg);
   background-size: cover;
   color: white;
 }
@@ -1023,7 +1023,7 @@ header nav .form {
 /* FOOTER */
 /* ******************* */
 footer {
-  background-image: url(images/subscribe.jpg);
+  background-image: url(../images/subscribe.jpg);
   position: relative;
   padding-top: 6.25rem;
   padding-bottom: 6.25rem;

@@ -31,6 +31,9 @@ img {
   .container {
     width: 56rem;
   }
+  .one-content p {
+    margin-bottom: 3rem;
+  }
   .content-service {
     display: flex;
     flex-wrap: wrap;
@@ -56,6 +59,7 @@ img {
   .container {
     width: 42.5rem;
   }
+
   .protofolio .testimonial .box {
     flex-basis: 50%;
   }
