@@ -127,11 +127,15 @@ img {
   }
   .one-content {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+
     text-align: center;
   }
   .one-content i {
     margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: center; */
   }
   .design .image {
     display: none;
