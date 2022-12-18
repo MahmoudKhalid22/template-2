@@ -1,6 +1,24 @@
 /* *********************** */
 /* HEADER */
 /* *********************** */
+.preloader {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(227, 244, 253);
+  z-index: 9999;
+  visibility: visible;
+  transition: all 0.5s;
+}
+.hide-preloader {
+  visibility: hidden;
+  z-index: -999;
+}
 header {
   position: absolute;
   z-index: 2;
@@ -163,6 +181,7 @@ header nav .form {
   border: 1px solid white;
   cursor: pointer;
   margin-right: 10px;
+  outline: none;
 }
 .dot:active,
 .active {
@@ -293,7 +312,7 @@ header nav .form {
   margin-right: 15px;
 }
 /* ********************* */
-/* PROTOFOLIO */
+/* portfolio */
 /* ********************* */
 .protofolio {
   padding-top: 6.25rem;
@@ -379,7 +398,7 @@ header nav .form {
   bottom: -100%;
 }
 .protofolio .testimonial .box:hover .box-content {
-  bottom: 1px;
+  bottom: 0;
 }
 .protofolio .testimonial .box:hover img {
   transform: rotate(3deg) scale(1.1);
