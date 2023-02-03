@@ -363,8 +363,13 @@ header nav .form {
 }
 .protofolio ul li {
   padding: 0.625rem;
+  cursor: pointer;
 }
 .protofolio .choose ul .act {
+  background-color: #19c8fa;
+  color: white;
+}
+.activeButton {
   background-color: #19c8fa;
   color: white;
 }
