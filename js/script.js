@@ -65,7 +65,7 @@ const sectionCenter = document.querySelector(".section-center");
 //   preloader.classList.add("hide-preloader");
 // });
 
-//filter projects
+//filter projects (shuffle function)
 
 window.addEventListener("DOMContentLoaded", () => {
   displayMenuItem(menu);
