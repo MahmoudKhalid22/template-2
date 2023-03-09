@@ -364,13 +364,10 @@ header nav .form {
 .protofolio ul li button {
   padding: 0.625rem;
   cursor: pointer;
-<<<<<<< HEAD
   background-color: transparent;
   border: none;
   outline: none;
   transition: 0.3s ease;
-=======
->>>>>>> refs/remotes/origin/main
 }
 .protofolio .choose ul li .act {
   background-color: #19c8fa;
