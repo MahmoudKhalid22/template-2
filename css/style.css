@@ -361,10 +361,15 @@ header nav .form {
   align-items: center;
   justify-content: center;
 }
-.protofolio ul li {
+.protofolio ul li button {
   padding: 0.625rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: 0.3s ease;
 }
-.protofolio .choose ul .act {
+.protofolio .choose ul li .act {
   background-color: #19c8fa;
   color: white;
 }
@@ -383,6 +388,10 @@ header nav .form {
   flex-basis: 25%;
   position: relative;
   overflow: hidden;
+  display: none;
+}
+.protofolio .testimonial .active {
+  display: block;
 }
 .protofolio .testimonial .box img {
   max-width: 100%;
